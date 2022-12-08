@@ -1,0 +1,104 @@
+*{
+    margin-top:10px;
+   
+ 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(90deg,transparent,blue);
+}
+#img1{
+border-radius: 50%;
+}
+a:hover{
+    color:red;
+}
+h1{
+border:2px solid ;
+border-radius:6px;
+width:200px;
+border-bottom:2px red  solid;
+border-top: 2px blue solid;
+border-left: 2px blueviolet solid;
+border-right: 2px black solid;
+
+}
+.navigation{
+    border :2px solid ;
+    border-radius:6px;
+    width :130px;
+   
+    background-color: aliceblue;
+    font-size:15px;
+}
+ul{
+  list-style:none;
+ 
+
+}
+ nav li a{
+    text-decoration: none;
+}
+.navigation {
+    text-decoration: none;  
+}
+Header{
+font-size: 28px;
+font-weight: 600;
+border:2px solid ;
+border-radius:6px;
+width:200px;
+border-bottom:2px green  solid;
+border-top: 2px yellow solid;
+border-left: 2px purple solid;
+border-right: 2px  blue solid;
+}
+#intro{
+    border: 2px solid black;
+    width:30%;
+}
+#contact{
+    border:2px solid red;
+    padding:10px;
+    width:200px;
+}
+#h2{
+    border-bottom:2px green  solid;
+    border-top: 2px yellow solid;
+    border-left: 2px purple solid;
+    border-right: 2px  blue solid;  
+    width:180px;
+    border-radius:6px;
+    margin-left:10px;
+}
+#hobbies{
+    border:2px solid blue;
+    width:200px;
+}
+.table{
+    border-bottom:2px green  solid;
+    border-top: 2px yellow solid;
+    border-left: 2px purple solid;
+    border-right: 2px  blue solid;  
+    width:180px;
+}
+#academic{
+    border:2px solid green;
+    width:200px;
+    margin-left:10px;
+    padding:10px;
+}
+.intrest{
+    border:2px solid grey;
+    width:200px;
+    margin-left:7px;
+    padding:10px; 
+}
+#intrest1{
+    border-bottom:2px blue  solid;
+    border-top: 2px brown solid;
+    border-left: 2px red solid;
+    border-right: 2px  green solid; 
+    border-radius: 6px;
+    width:180px;
+}
