@@ -1,0 +1,11 @@
+*{
+    margin-top:0px;
+
+    font-family: 'Press Start 2P', cursive;
+}
+img{
+    border-radius:50%;
+    width:auto;
+    height:600px;
+    background-size:cover;
+}
