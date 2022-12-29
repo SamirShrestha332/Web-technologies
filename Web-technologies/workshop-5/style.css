@@ -1,0 +1,15 @@
+
+@import url(css/module-one.css);
+@import url(css/module-two.css);
+@import url(css/module-three.css);
+@import url(css/module-four.css);
+@import url(css/module-five.css);
+
+*{
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+

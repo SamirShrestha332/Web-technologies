@@ -1,0 +1,88 @@
+
+.content-wapper{
+    background-color:rgb(12,59,46);
+    width:50%;
+    height:100vh;
+    padding-left:10px;
+    margin-bottom:0px;
+}
+menu{
+    display:flex;
+    color:#ffff;
+    
+}
+.content-wapper .header h1{
+    margin-bottom:40px;
+    font-size:59px;
+}
+.content-wapper .header2 h2{
+margin-bottom:80px;
+font-size:24px;
+font-weight: 300;
+}
+.content-wapper .date{
+    font-size:19px;
+}
+.content-wapper .venue{
+    font-size:19px;
+}
+figure img{
+width:100%;
+height:100vh;
+}
+
+    
+
+.button a{
+    text-decoration: none;
+    color:white;
+}
+.button{
+   border-radius: 10px;
+   background-color: #fcba03;
+   width:fit-content;
+   padding:6px;
+   margin-top: 30px;
+}
+
+.button:hover{
+    background-color:aqua;
+}
+a:hover{
+    color:black;
+letter-spacing:2px;
+transition:0.3s
+}
+@media all and (max-width:1024px) {
+    .content-wapper{
+        background-color: red;
+    }
+    .content-wapper .header h1{
+        margin-bottom:10px;
+        font-size:25px;
+    }
+        .content-wapper .header2 h2{
+            margin-bottom:30px;
+            font-size:10px;
+            font-weight: 300;
+            }
+
+            .content-wapper .date{
+                font-size:8px;
+            }
+            .content-wapper .venue{
+                font-size:8px;
+            }
+            .button{
+                border-radius: 10px;
+                background-color: #fcba03;
+                margin-top: 15px;
+                width:150px;
+                font-size: 8px;
+             }
+             
+}
+
+
+
+

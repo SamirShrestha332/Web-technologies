@@ -1,0 +1,48 @@
+.web4 {
+    display: flex;
+    background-color:#5fcc5a;
+    height:100vh;
+    color: white;
+}
+.web4 .image img{ 
+    width:80%;
+    height:100vh;
+}
+.element{
+    width:35%;
+    height:100vh;
+}
+.element p{
+    font-size:23px;
+    margin-top: 50%;
+}
+.element h1{
+margin-top: 10%;
+font-size:44px;
+}
+@media all and(max-width:1024px){
+
+    .web4 {
+        display: flex;
+        background-color:#5fcc5a;
+        height:100vh;
+        color: white;
+    }
+    .web4 .image img{ 
+        width:80%;
+        height:100vh;
+    }
+    .element{
+        width:35%;
+        height:100vh;
+    }
+    .web4.element p{
+        font-size:5px;
+        margin-top:4%;
+    }
+    .element h1{
+    margin-top: 1%;
+    font-size:2px;
+    }
+   
+}
