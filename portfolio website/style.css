@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+@import url(portfoliocss/page1.css);
+@import url(portfoliocss/page2.css);
+@import url(portfoliocss/page3.css);
+@import url(portfoliocss/page4.css);
+@import url(portfoliocss/page5.css);
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+box-sizing: border-box;
+
+}
