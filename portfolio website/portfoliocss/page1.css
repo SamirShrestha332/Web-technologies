@@ -1,6 +1,6 @@
 
 body{
-    background-image:url("background.jpg");
+    background-image:url("samir.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,6 +40,7 @@ nav ul li a{
 header{
     height:75px;
     background-color:black;
+    background:transparent;
     position: sticky;
     top:0px;
 
@@ -75,6 +76,7 @@ header{
         top:70px;
         text-align: center;
         transition: all .8s;
+        display:none;
     }
     #cont{
         border:none;
@@ -93,23 +95,30 @@ header{
     }
 }
 #Home{
- width:100%;
+ width:100vw;
  height:100vh;
  display: flex;
-    text-align: center;
-    text-align: center;
-    margin-left:40px;
+text-align: center;
+
 }
 #Home h1{
     color:white;
+    font-size:50px;
 }
  #Home .intro{
     background-color:rgb(0,0,0,0.5);
     width:600px;
-    height:250px;
-    margin-top:2rem;
+    height:400px;
+    margin-top:4rem;
+    margin-left:2rem;
     text-align: center;
     padding:30px;
     border-radius:10px;
+    transition:1s;
  }
+ #Home .intro:hover{
+    background:linear-gradient(0deg, transparent,blue);
+    transition:2s;
+ }
+ 
 
