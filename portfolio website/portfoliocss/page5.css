@@ -1,5 +1,57 @@
 #Contact{
-    width:100%;
+    width:100vw;
     height:100vh;
-    background-color:green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0c1123;
+    background-image:url(https://media.zicxa.com/2856043);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+#Contact .card{
+background:linear-gradient(90deg,transparent,#14f50c);
+width:300px;
+height:400px;
+text-align: center;
+border-radius:7px;
+
+
+}
+form input{
+    width:200px;
+    height:40px;
+    margin-top: 20px;
+    outline:2px gray;
+    caret-color:red;
+    color:black;
+}
+#submitbtn{
+width:100px;
+height:40px;
+margin-top: 10px;
+border-radius:5px;
+border:0px solid;
+font-size:20px;
+font-weight: bold;
+
+}
+#tickbtn{
+    width:15px;
+    height:15px
+}
+
+#submitbtn:hover{
+    color:blueviolet;
+    cursor: pointer;
+
+}
+.card span{
+    height:3px;
+    width:100%;
+    background-color:red;
+}
+form h1{
+    margin-top:20px;
 }

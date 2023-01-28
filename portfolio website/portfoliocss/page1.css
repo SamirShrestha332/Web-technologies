@@ -4,101 +4,123 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-nav ul{
-    float:right;
+.navigation{
+    position: sticky;
+    top:0;
+}
+nav{
+    color:white;
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    gap:30px;
-    list-style: none;
-    margin-right:50px;
-    font-size:30px;
-    margin-top:10px;
-    
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    background-color:rgba(18, 138, 175, 0.1);
+
+
 }
-nav .logo h1{
-    font-size:40px;
-    font-weight: bolder;
+.logo{
     color:white;
-    cursor: pointer;
+    text-transform: uppercase; 
+    letter-spacing:5px;
+    font-size: 25px;
 }
-nav .logo h1:hover{
-    transition:0.4s;
-    color:yellowgreen;
+.activaTade{
+    display: flex;
+    justify-content:space-around;
+    width:50%;
+ 
+
 }
-nav .logo{
-    float:left;
-}
-nav ul li a{
+.activaTade a{
     text-decoration: none;
+    letter-spacing: 3px;
+    font-weight:bold;
+    font-size:18px;
     color:white;
-    position: sticky;
-    top:0px;
+    transition:0.4s ;
 
 }
-
-header{
-    height:75px;
-    background-color:black;
-    background:transparent;
-    position: sticky;
-    top:0px;
-
+.activaTade a:hover{
+    letter-spacing:7px;
+    text-shadow:0px 0px 10px white;
 }
-
- nav ul li a:hover{
-    color: #22e610;
-    letter-spacing:4px;
-    transition:0.5s;
-
-
-
+.activaTade li{
+    list-style:none;
 }
-#cont{
-    border:3px solid green;
-    border-radius:18px;
-    padding:1px 4px;
-    
+.burger div{
+width: 23px;
+height:3px;
+background-color: white;
+margin:4px;
+border-radius:6px;
+display:none;
+transition: transform 0.3s ease ;
 }
-#cont:hover{
-    background-color:white;
-}
+@media screen and (max-width:1024px){
+   .activaTade{ 
 
-@media(max-width:952px){
-   
-    nav ul{
-        background-color:#2c3e50;
-        background:transparent;
-        display:block;
-        width: 100%;
-        height:100vh;
-        position:fixed;
-        top:70px;
-        text-align: center;
-        transition: all .8s;
-        display:none;
-    }
-    #cont{
-        border:none;
-        border-radius:0;
+    width:90%;
+}
+}
+@media screen and (max-width:768px){
+    body{
+      overflow-x: hidden;
     }
 
-    nav ul li {
+    .activaTade{
+    position: absolute;
+    right:0px;
+    height:92vh;
+    top:9vh;
+    background-color:rgb(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:35%;
+    transform: translateX(100%);
+    transition:transform 0.3s ease-in;
+
+    }
+    .activaTade li{
+        opacity:0;
+
+
+    }
+    .burger{
+        cursor: pointer; 
+    }
+    .burger div{
         display: block;
-
     }
-    nav ul :hover{
-        background-color: black;
-    }
-    ul:active{
-     display:block
+     .nav-active{
+        transform: translateX(0);
     }
 }
+@keyframes animationnav {
+    from{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform:tanslateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+.toggle .line2{
+    opacity:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-5px);
+}
+
+/*<-----------------------------------------for home page*---------------------------->*/
 #Home{
- width:100vw;
+ width:100%;
  height:100vh;
  display: flex;
-text-align: center;
 
 }
 #Home h1{
@@ -107,8 +129,8 @@ text-align: center;
 }
  #Home .intro{
     background-color:rgb(0,0,0,0.5);
-    width:600px;
-    height:400px;
+    width:50%;
+    height:fit-content;
     margin-top:4rem;
     margin-left:2rem;
     text-align: center;
@@ -116,9 +138,12 @@ text-align: center;
     border-radius:10px;
     transition:1s;
  }
- #Home .intro:hover{
-    background:linear-gradient(0deg, transparent,blue);
-    transition:2s;
+ @media screen and (max-width:768px){
+    #Home h1{
+        color:white;
+        font-size:35px;
+    }  
  }
+
  
 

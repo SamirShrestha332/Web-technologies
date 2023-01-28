@@ -16,13 +16,18 @@
             <div class="logo">
              <h1>SAMXT</h1>
             </div>
-            <ul id="activaTade">
+            <ul class="activaTade">
                 <li><a href="#Home">Home</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
                 <li><a href="#project">Projects</a></li>
                 <li><a href="#about">About</a></li>
                 <li id="cont"><a href="#Contact">Contact me</a></li>
             </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
 </div>
@@ -30,7 +35,7 @@
 <div id="Home">
   <div class="intro">
     <h1>
-        Hello! My name is <span style="color:red"> SAMIR</span> Shrestha
+        Hello! <br>My name is <span style="color:red"> SAMIR</span> Shrestha from Nepal
     </h1>
     </div>
     <div class="myself">
@@ -38,8 +43,36 @@
     </div>
 </div>
 <!--------services--------->
-<div id="services">
+<div id="Hobbies">
+<div class="container">
+    <h1 class="subtitle">HOBBIES</h1>
+    <div class="hobbies-list">
+        <div class="hobbies">
+            <img src="listening music.jpg" >
+            <div class="layer">
+            <h2>Listening music</h2>
+            <p>Music has a positive effect on my mood and helps me to feel refreshed.</p>
+         </div>
+        </div>
 
+        <div class="hobbies">
+            <img src="Playing games.jpg"  >
+            <div class="layer">
+            <h2> Playing games</h2>
+            <p>Playing games, including IQ games and mobile games, helps to freshen my mood when I am feeling bored. </p>
+        </div>
+        </div>
+
+        <div class="hobbies">
+            <img src="Sports.jpg">
+        <div class="layer">
+            <h2>Sports</h2>
+            <p>I have a strong preference for playing sports, such as volleyball and basketball, during my free time.They are among my favorite activities and I really enjoy playing them.</p>
+        </div>
+        </div>
+        
+    </div>
+</div>
 </div>
 <!----------Project----------->
 <div id="project">
@@ -82,6 +115,23 @@
 </div>
 <!----------Contacts-------->
 <div id="Contact">
+    <div class="card">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span> 
+   <form>
+    <h1>CONTACT ME</h1>
+    <input type="text" maxlength="20" placeholder="Username">
+    <br>
+    <input type="email" placeholder="E-mail">
+    <br>
+    <button type="submit" id="submitbtn">Submit</button><br>
+    <input type="checkbox" id="tickbtn">
+    <a href="#">accept  terms and condition</a>
+   </form>
+   </div>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
