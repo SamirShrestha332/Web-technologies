@@ -1,0 +1,167 @@
+
+body{
+    background-image:url("samir.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+ header{
+    position: sticky;
+    top:0px;
+    z-index:2;
+    width:100%;
+}
+nav{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    background-color:rgb(8, 109, 109);
+    width:100%;
+  
+
+
+}
+.logo{
+    color:white;
+    text-transform: uppercase; 
+    letter-spacing:5px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+.logo:hover{
+    color:gray;
+    cursor:pointer;
+}
+.activaTade{
+    display: flex;
+    justify-content:space-around;
+    width:60%;
+ 
+
+}
+.activaTade a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+    transition:0.4s ;
+
+}
+.activaTade a:hover{
+    letter-spacing:7px;
+    text-shadow:0px 0px 10px white;
+}
+.activaTade li{
+    list-style:none;
+}
+.burger div{
+width: 23px;
+height:3px;
+background-color: white;
+margin:4px;
+border-radius:6px;
+display:none;
+transition: transform 0.3s ease ;
+}
+@media screen and (max-width:1024px){
+   .activaTade{ 
+
+    width:90%;
+}
+}
+@media screen and (max-width:768px){
+    body{
+      overflow-x: hidden;
+    }
+
+    .activaTade{
+    position: absolute;
+    right:0px;
+    height:92vh;
+    top:9vh;
+    background-color:rgb(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:35%;
+    transform: translateX(100%);
+    transition:transform 0.3s ease-in;
+
+    }
+    .activaTade li{
+        opacity:0;
+
+
+    }
+    .burger{
+        cursor: pointer; 
+    }
+    .burger div{
+        display: block;
+    }
+     .nav-active{
+        transform: translateX(0);
+    }
+}
+@keyframes animationnav {
+    from{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform:tanslateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+.toggle .line2{
+    opacity:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-5px);
+}
+
+/*<-----------------------------------------for home page*---------------------------->*/
+#Home{
+ width:100%;
+ height:100vh;
+ display: flex;
+
+}
+#Home h1{
+    color:white;
+    font-size:50px;
+}
+#Home .intro p{
+    color:white;
+    margin-left:0px;
+    padding-left:0px;
+    font-size:23px;
+    margin-bottom:20px;
+}
+
+ #Home .intro{
+    background-color:rgb(0,0,0,0.5);
+    width:50%;
+    height:fit-content;
+    margin-top:4rem;
+    margin-left:2rem;
+    padding:30px;
+    border-radius:10px;
+
+ }
+
+
+ @media screen and (max-width:768px){
+    #Home h1{
+        color:white;
+        font-size:30px;
+    }  
+ }
+
+ 
+
