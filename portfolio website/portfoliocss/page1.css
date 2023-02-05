@@ -3,11 +3,23 @@ body{
     background-image:url("samir.jpg");
     background-size: cover;
     background-attachment: fixed;
+    animation: appear 1.5s ease-in-out 1;
 }
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
  header{
     position: sticky;
     top:0px;
-    z-index:1;
+    z-index:2;
+    width:100%;
 }
 nav{
     color:white;
@@ -15,7 +27,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height:8vh;
-    background-color:rgba(18, 138, 175);
+    background-color:rgb(8, 109, 109);
+    width:100%;
+  
 
 
 }
@@ -29,11 +43,12 @@ nav{
 .logo:hover{
     color:gray;
     cursor:pointer;
+    letter-spacing:normal;
 }
 .activaTade{
     display: flex;
     justify-content:space-around;
-    width:50%;
+    width:60%;
  
 
 }
@@ -78,11 +93,11 @@ transition: transform 0.3s ease ;
     right:0px;
     height:92vh;
     top:9vh;
-    background-color:rgb(0,0,0,0.5);
+    background-color:rgb(0,0,0,0.4);
     display:flex;
     flex-direction: column;
     align-items: center;
-    width:35%;
+    width:40%;
     transform: translateX(100%);
     transition:transform 0.3s ease-in;
 
@@ -149,18 +164,14 @@ transition: transform 0.3s ease ;
     margin-left:2rem;
     padding:30px;
     border-radius:10px;
-    animation:swap 3s 0s 1 ease-in;
+
  }
 
- @keyframes swap {
- 
 
-    
- }
  @media screen and (max-width:768px){
     #Home h1{
         color:white;
-        font-size:35px;
+        font-size:30px;
     }  
  }
 

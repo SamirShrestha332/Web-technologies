@@ -1,6 +1,6 @@
 #Hobbies{
     width:100%;
-    height:auto;
+    height:100vh;
     background-color:black;
     padding:50px 0px;
     color:white;
@@ -60,8 +60,12 @@ color: white;
     .hobbies{
         display:flex;
         justify-content: center;
+
     }
-    .container h1{
-        writing-mode:vertical-rl;
     }
-}
+    #Hobbies{
+        width:100%;
+        height:auto;
+    }
+
+

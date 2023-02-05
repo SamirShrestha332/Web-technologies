@@ -2,11 +2,12 @@
     position: relative;
     min-height:100vh;
     background-color:#222;
-    padding:50px 100px;
+    padding:45px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 
 }
 #Contact .content{
@@ -21,7 +22,8 @@
     align-items: center;
     justify-content: center;
     gap:50px;
-    margin-top:25px
+    margin-top:25px;
+    height:auto;
 
 }
 .container .contactinfo{
