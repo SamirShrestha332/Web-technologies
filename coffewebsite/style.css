@@ -15,6 +15,7 @@
  padding-top:10px;
  color:white;
  transition:1.5s;
+ z-index:1;
 }
 
 .button1:hover{
@@ -56,16 +57,7 @@
     
    
 }
-span{
-    margin-top:10px;
-    background-color: white;
-    height: 30px;
-    width: 50px;
-    text-align: center;
-    padding: 5px 2px;
-    border-radius:15px;
-    cursor: pointer;
-}
+
 @keyframes smoke {
 from{
     filter: none;
@@ -139,8 +131,8 @@ to{
     text-align: center; 
     height:auto;
     padding:30px;
-    padding-top: 10%;
-    background-image:url('https://images.wallpaperscraft.com/image/single/coffee_milk_glass_197355_1920x1080.jpg');
+    padding-top: 8%;
+    background-image:url('https://images.wallpaperscraft.com/image/single/coffee_drink_glass_181741_1920x1080.jpg');
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
@@ -152,10 +144,12 @@ display: flex;
 gap:40px;
 flex-direction: row;
 flex-wrap: wrap;
-z-index: -1;
+
+justify-content: center;
 
 }
 .affogato{
+    margin-top: 20px;
     background-color:rgba(0, 0, 0, 0.509);
     width: 400px;
     padding-left:40px;
@@ -163,9 +157,15 @@ z-index: -1;
     padding-bottom:20px;
     color:white;
     backdrop-filter:blur(20px);
+    transition: 0.5s;
    
 }
+.affogato:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
+}
 .americano{
+    margin-top: 20px;
     background-color:rgba(0, 0, 0, 0.3);
     width: 400px;
     padding-left:40px;
@@ -174,7 +174,12 @@ z-index: -1;
     padding-bottom:20px;
     color:white;
     backdrop-filter:blur(20px);
+    transition: 0.5s;
  
+}
+.americano:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
 }
 .latee{
     background-color:rgba(0, 0, 0, 0.509);
@@ -185,7 +190,12 @@ z-index: -1;
     color:white;
     padding-bottom:20px;
     backdrop-filter:blur(20px);
+    transition:0.5s;
   
+}
+.latee:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
 }
 .Expresso{
     background-color:rgba(0, 0, 0, 0.509);
@@ -196,7 +206,11 @@ z-index: -1;
     color:white;
     padding-bottom:20px;
     backdrop-filter:blur(20px);
-   
+   transition: 0.5s;
+}
+.Expresso:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
 }
 .matcha{
     background-color:rgba(0, 0, 0, 0.509);
@@ -207,8 +221,14 @@ z-index: -1;
     color:white;
     padding-bottom:20px;
     backdrop-filter:blur(20px);
+    transition: 0.5s;
+
  
 
+}
+.matcha:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
 }
 .cappuccino{
     background-color:rgba(0, 0, 0, 0.509);
@@ -220,8 +240,12 @@ z-index: -1;
     padding-bottom:20px;
     backdrop-filter:blur(20px);
     text-align: center;
-   
+   transition: 0.5s;
 
+}
+.cappuccino:hover{
+   transform: translatey(-20px);
+   box-shadow: 10px 10px 8px black;
 }
 .content h1{
     background-color: gray;
@@ -230,7 +254,7 @@ z-index: -1;
     margin-left: 30%;
 }
 .price{
-    color:black;
+    color:red;
 }
 .macchiato{
     background-color:rgba(0, 0, 0, 0.509);
@@ -241,8 +265,14 @@ z-index: -1;
     color:white;
     padding-bottom:20px;
     backdrop-filter:blur(20px);
-  
+  transition: 0.5s;
 }
+.macchiato:hover{
+    transform: translatey(-20px);
+    box-shadow: 10px 10px 8px black;
+}
+
+
 main{
     background-image:url('https://images.wallpaperscraft.com/image/single/coffee_milk_cup_208642_1920x1080.jpg');
     background-size: cover;
@@ -257,9 +287,9 @@ main{
     width:150px;
     height:50px;
     border-radius: 20px;
-transition:0.5s;
-font-size:20px;
-border: 0 solid;
+    transition:0.5s;
+    font-size:20px;
+    border: 0 solid;
 }
 a{
     color:white;
