@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@500&family=Zeyada&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('images/cloudy_night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+    height: 100vh;
+    width:100%;
+    color: #fff;
+    display: flex;
+}
+.wind{
+    display: flex;
+    justify-content: space-between;
+}
+.humility{
+    display: flex;
+    justify-content: space-between;
+}
+.cloudy{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.weather-right-side{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(110,110,110,0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-right:5px;
+    position: absolute;
+    right: 0px;
+    color: white;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+}
+.weather-left-side{
+    display: flex;
+    align-items:last baseline;
+    height: 100vh;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.searchbar{
+    font-size: 2rem;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    padding: 30px 20px;
+
+}
+.searchbtn{
+    position: absolute;
+    right: 6px;
+    background-color: white;
+    top: 21px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+    width: 50px;
+    height: 50px;
+
+}
+.temperature h2{
+    font-size: 5em; 
+    margin-left: 0;
+    padding-left: 0;
+}
+.temperature{
+    display: flex;
+    gap: 40px;
+}
+.weather_condition{
+    font-size:1.3em;
+    height: auto;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+}
+.weather_condition p{
+    margin-bottom: 3em;
+}
+.weather_condition h4{
+    margin-bottom: 3em;
+}
+input{
+    width: 87%;
+    background: none;
+    border:none;
+    border-bottom: 2px white solid;
+    height: 50px;
+    outline: none;
+    caret-color: #fff;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+.country-name{
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+#day{
+    font-size: 1em;
+    padding-left: 40px;
+}
+.weather{
+    font-size: 15px;
+}
+i{
+    font-size:1.5em;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.day{
+    display: flex;
+    gap: 30px;
+}
+.searchbtn{
+    width: 60px;
+    height: 60px;
+}
+@media (max-width:800px){
+      .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .weather-left-side{
+        width: 100%;
+        height: 40%;
+        font-size: 0.7em;
+
+
+    }
+    .weather-right-side{
+       position: relative;
+       left:0;
+       width: 100%;
+    
+    }
+}
