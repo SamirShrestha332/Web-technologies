@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Montserrat&family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@500&family=Zeyada&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.loginform{
+    height: 486px;
+    width: 396px;
+ 
+    
+}
+.right{
+    width: 60%;
+    height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.login{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: flex-start;
+    width: 396px;
+    height:350px
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.leftside{
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftside .logowithtitle p{
+    
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left:26px ;
+}
+.slogan{
+    width: 100%;
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slogan p{
+    font-size: 14px;
+}
+.login  input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+
+
+}
+input[type=text]:focus{
+    outline: 2px solid rgb(41, 113, 196); 
+    border: 0px;  
+  }
+  input[type=password]:focus{
+    outline: 2px solid rgb(41, 113, 196); 
+    border: 0px;
+  }
+.submitbtn{
+background-color: #3382e9;
+font-size: 22px;
+height:45px;
+padding: 14px 16px;
+width: 370px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+border:0px solid;
+border-radius: 6px;
+font-weight: bolder;
+cursor: pointer;
+}
+
+a{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+.createbuttn{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anker{
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.149);
+
+}
+.createbuttn button{
+    background-color: rgb(53, 217, 53);
+font-size: 16px;
+padding: 14px 16px;
+width: 200px;
+color: white;
+border:0px solid;
+border-radius: 6px;
+font-weight: bolder;
+}
+.createbuttn button:hover{
+    cursor: pointer;
+    background-color:rgb(46, 191, 46);
+}
+.createbutn-active{
+    background-color:rgba(255, 255, 255, 0.634);
+}
+
+
+
+.Registerform{
+    
+    border: 1px solid ;
+    width: 432px;
+    position: relative;
+    border: 0px;
+    height: 536px;
+    border-radius:10px;
+    background:#fff;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.405); 
+}
+.Registerform .header{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.46);
+  
+    padding: 10px;
+}
+.personalinfo{
+    margin-top: 20px;
+}
+.personalinfo #firstname,#lastname{
+    width: 170px;
+    height: 37px;
+    font-size: 15px;
+    padding-left: 20px;
+    background-color:whitesmoke;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 50%, 0.686);
+    outline:none;
+    margin-bottom: 10px;
+}
+.personalinfo .mobileinput{
+    width: 87%;
+    height: 37px;
+    background-color:whitesmoke;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.694);
+    margin-bottom: 10px;
+
+}
+.personalinfo .passwordinput{
+    width: 87%;
+    height: 37px;
+    background-color:whitesmoke;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.719);
+    margin-bottom: 10px;
+}
+.birthdaysection select{
+    width:120px;
+    border-radius: 4px;
+    color: #1c1e21;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 10px;
+   border:1.5px solid rgba(128, 128, 128, 0.675);
+}
+.birthdaysection select:active{
+    border:1.5px solid rgba(128, 128, 128, 0.802);
+
+}
+.birthdaysection p{
+font-size: 12px;
+color: gray;
+margin-left: 12px;
+margin-bottom: 5px;
+
+}
+.male{
+    width: 120px;
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.719);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 20px;
+ 
+}
+.female{
+    width: 120px;
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.719);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 20px;
+
+}
+.gender_option{
+    display: flex;
+}
+.gender .gender_title{
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+.little-information p{
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+    margin-left: 10px;
+}
+.little-information p a{
+    color: rgb(88, 88, 189);
+}
+.little-information p a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.signup-button{
+    background-color: #00a400;
+    border: none;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    text-align: center;
+    margin-left: 30%;
+}
+.signup-button:hover{
+    background: linear-gradient(#79bc64, #578843);
+}
+.cross-symbol{
+    font-size: 30px;
+    font-weight: bolder;
+   position: absolute;
+   top: 0px;
+   right: 10px;
+   cursor: pointer;
+}
+.blurbackground{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.708);
+    position: absolute;
+    top: 0%;
+    display: none;
+
+
+}
+.blurbackground-active{
+display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 2s;
+}
+.welcomebox{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(skyblue,powderblue);
+    border-radius: 10px;
+    padding:20px 30px;
+    text-align: center;
+    transform: translate(-50%,-50%) scale(0.1);
+    color: #333;
+    position:absolute;
+    top:0;
+    left: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    transition:0.4s;
+    font-family: 'Poppins',cursive;
+}
+
+
+.welcomebox h1 span{
+    color: blue;
+}
+.welcomebox h1{
+    font-size: 3em;
+}
+.welcomebox p{
+    font-size: 1.7em;
+}
+.container-active{
+    top:50%;
+    visibility:visible;
+   transform: translate(-50%,-50%) scale(1);
+
+}

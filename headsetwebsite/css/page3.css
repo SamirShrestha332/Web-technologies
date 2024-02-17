@@ -1,0 +1,63 @@
+.thirdpage{
+    width: 100%;
+
+    height: 100vh;
+        background:linear-gradient(180deg,#D5D8D7,#AFD9D5,#77D0CF,#75B3CF) ;
+    }
+.container3{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.section{
+    margin-top:50px ;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.section .first{
+    background-color: #ffff;
+   width: 300px;
+   height: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+.section .second{
+    width: 300px;
+    height: 350px;
+    background-color: #ffff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+.section .third{
+    width: 300px;
+   height: 350px;
+    background-color: #ffff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+.section .first img{
+    border-top-right-radius: 50px;
+}
+.section .second img{
+    border-top-right-radius: 50px;
+}
+.section .third img{
+    border-top-right-radius: 50px;
+}

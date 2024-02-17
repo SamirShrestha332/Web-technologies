@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Montserrat&family=PT+Sans&family=Poppins:wght@600&family=Roboto:wght@500&family=Zeyada&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto',cursive;
+}
+body{
+    background-image: url('https://as1.ftcdn.net/v2/jpg/00/46/01/54/1000_F_46015497_iigSgOdojuWva2QM73HvHPb13Af7ozsN.jpg');
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    background-color:skyblue;
+    padding: 5px;
+}
+.alert-msg{
+    position: absolute;
+     top: 10px;
+     display: flex;
+     transform: translateX(400%);
+     width:350px;
+     align-items: center;
+     height:50px;
+     justify-content: center;
+     background-color: rgba(127, 255, 212, 0.313);
+     padding: 15px 3px;
+    
+     
+ }
+ .alert-active{
+    position: absolute;
+     top: 10px;
+     animation: alert 0.5s ease-in-out 0s 1 forwards;
+ }
+ @keyframes alert {
+    from {transform:translateX(400%)
+    }
+     to{
+        transform: translateX(50%);
+     }
+ } 
+    .alert-notactive{
+        animation: notActiveAlert  0.8s linear 1 alternate ;
+    }
+
+ @keyframes notActiveAlert {
+    from {transform:translateX(50%)
+    }
+     to{
+        transform: translateX(400%);
+     }
+ }
+.QrBox{
+    height: auto;
+    width:auto;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(rgba(17, 142, 158, 0.465),skyblue);
+    border-radius: 10px;
+}
+.QrBox input{
+    height: 40px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 30px;
+    width: 260px;
+    border: none;
+    
+}
+input:focus{
+    box-shadow: 0px 0px 20px rgb(193, 42, 22);
+    border: none;
+    outline: none;
+}
+.QrBox #Search_button{
+    border-radius:30px;
+    background-color: white;
+    color:black;
+    border: none;
+}
+.QrBox #Search_button:hover{
+    transition: 0.6s;
+    background-color: black;
+    color:white; 
+}
+.search_content{
+    margin: 40px 30px;
+}

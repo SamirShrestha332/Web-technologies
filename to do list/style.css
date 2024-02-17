@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Montserrat&family=PT+Sans&family=Poppins:wght@600&family=Roboto:wght@500&family=Zeyada&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    color: white;
+    
+}
+.list_name{
+    width: 40%;
+    height: 40px;
+    margin:10px;
+    border-radius: 40px;
+    border: 2px solid;
+
+}
+
+.addme{
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(56, 184, 206);
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.addme:hover{
+    background-color: rgba(40, 155, 175, 0.808);
+
+
+}
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.list{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ul li{
+    font-size: 25px;
+    width: 60%;
+    padding: 5px 40px;
+    cursor:pointer;
+    background-color: rgba(128, 128, 128, 0.71);
+    border: none;
+    border-radius: 40px;
+    box-shadow: -5px 5px 5px gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: 'Montserrat',cursive;
+    font-weight: bold;
+    
+}
+.input-group .list_name{
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px;
+    height: 60px;
+}
+span{
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+span:hover{
+    transition: 0.2s;
+    background-color: rgb(234, 225, 217);
+    cursor: pointer;
+}
+.workdone{
+    text-decoration: line-through;
+    color: red;
+}

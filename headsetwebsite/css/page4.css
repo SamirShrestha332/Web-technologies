@@ -1,0 +1,43 @@
+.fourthpage
+    {
+    width: 100%;
+
+        height: 100vh;
+            background:linear-gradient(180deg,#D5D8D7,#AFD9D5,#77D0CF,#75B3CF) ;
+        }
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.container4 .left_contain{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.container4 .right_contain img{
+    border-top-right-radius: 50px;
+}
+.lower_contain{
+    margin-top: 50px;
+}
+.upper_contain{
+    margin-top: 50px;
+   
+}
+.lower_contain h4{
+    font-size: 16px;
+    font-weight:bold;
+
+}
+.lower_contain p{
+    font-size: 12px;
+}
+.left_contain .upper-contain h1{
+    
+font-weight: 300;
+}

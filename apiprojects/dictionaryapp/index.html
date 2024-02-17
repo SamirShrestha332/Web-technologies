@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+ <audio id="sound" ></audio>
+    <div class="container">
+        <div class="text">
+            <h1>Online dictionary</h1>
+        </div>
+        <div class="outerbox">
+        <div class="search-box">
+            <input type="text" placeholder='Enter any word' id="inputElement">
+            <button class="searchBtn">Search</button>
+
+        </div>
+        <div class="example">
+            <div class="word">
+                <h2 class="realword">example</h2>
+                <button id="soundBtn" onclick="playsound()">
+                    <i class="fa-solid fa-volume-high"></i>
+                </button>
+            </div>
+            <div class="diffmean">
+                <p class="pos">pos</p>
+                <p class="sample">/sample/</p>
+            </div>
+            <div class='meaning'>
+                <p class="word-meaning">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia ratione veniam quisquam omnis.</p>
+                <br>
+                <p class="word-example">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum magnam deleniti minima.</p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
