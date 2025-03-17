@@ -1,0 +1,168 @@
+body{
+  background-color: #242D34;
+  font-family: "Montserrat", sans-serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.login-card{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+
+  
+}
+
+.login-card .header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+ width: 50%;
+ height:60px;
+ padding: 10px ;
+}
+.header div:nth-child(2) ion-icon{
+  font-size: 32px;
+}
+.header div:nth-child(1) ion-icon{
+  font-size: 25px;
+}
+.signupBtn_apple{
+  display: flex;
+
+  padding: 2px;
+}
+.inputsection{
+  width: 450px;
+
+ flex-direction: column;
+ display: flex;
+justify-content: center;
+ align-items: center;
+ padding: 10px 67px;
+}
+.login-card .heading-text{
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px 0px;
+}
+.signupBtn_apple{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background-color: white;
+  color: black;
+  padding: 4px 37px;
+  font-weight: 670;
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 25px;
+
+}
+.signupBtn_apple ion-icon{
+  font-size: 21px;
+  color: black;
+}
+.linebreak{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+
+  width: 66%;
+   height: 40px;
+   gap: 8px;
+  margin: 20px 10px;
+  font-size: 17.25px;
+}
+.linebreak .linebreak1{
+  border: 1px solid gray;
+  width: 40%;
+  
+}
+.linebreak .linebreak2{
+  border: 1px solid gray;
+  width: 40%;
+}
+.EmailInput{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+
+  width: 64%;
+   height: 40px;
+   gap: 8px;
+   padding-left:10px ;
+  margin: 10px 10px;
+  font-size: 17.25px;
+  outline: none;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  
+
+}
+.EmailInput:focus{
+  border: 1px solid rgb(31, 123, 204);
+}
+.nextbtn{
+
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  color: black;
+  padding: 7px 37px;
+  font-weight: 670;
+  width: 66%;
+  height: 37px;
+  border: none;
+  border-radius: 25px;
+}
+.forgotBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 7px 37px;
+  font-weight: 670;
+  width: 66%;
+  height: 37px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.createaccountsection{
+
+  padding-top: 20px;
+  display: flex;
+  align-items: start;
+
+  width: 66%;
+ height: 120px;
+ font-size: 0.8.9em;
+
+}
+.createaccountsection a{
+  color: #177BBF;
+  text-decoration: none;
+
+}
+.createaccountsection a:hover{
+  color: #177BBF;
+  text-decoration: underline;
+
+}
